@@ -57,6 +57,30 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        glass: {
+          DEFAULT: "hsl(var(--glass))",
+          border: "hsl(var(--glass-border))",
+        },
+        tech: {
+          blue: "hsl(var(--tech-blue))",
+          cyan: "hsl(var(--tech-cyan))",
+          purple: "hsl(var(--tech-purple))",
+          success: "hsl(var(--tech-success))",
+        },
+      },
+      backdropBlur: {
+        xs: "2px",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "glass-gradient":
+          "linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05))",
+        "tech-gradient":
+          "linear-gradient(135deg, hsl(var(--tech-blue)), hsl(var(--tech-purple)))",
+      },
+      boxShadow: {
+        glass: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+        "glass-hover": "0 12px 40px 0 rgba(31, 38, 135, 0.5)",
       },
       borderRadius: {
         lg: "var(--radius)",
